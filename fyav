@@ -1,0 +1,616 @@
+
+-- Instances: 40 | Scripts: 10 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- StarterGui.gamde
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[gamde]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- StarterGui.gamde.memenu
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Size"] = UDim2.new(0.49351, 0, 0.6904, 0);
+G2L["2"]["Position"] = UDim2.new(0.25281, 0, 0.1548, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Name"] = [[memenu]];
+G2L["2"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.gamde.memenu.UIStroke
+G2L["3"] = Instance.new("UIStroke", G2L["2"]);
+G2L["3"]["Thickness"] = 1.9;
+G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.gamde.memenu.UIStroke.UIGradient
+G2L["4"] = Instance.new("UIGradient", G2L["3"]);
+G2L["4"]["Rotation"] = -180;
+G2L["4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(73, 0, 255)),ColorSequenceKeypoint.new(0.218, Color3.fromRGB(9, 0, 255)),ColorSequenceKeypoint.new(0.388, Color3.fromRGB(0, 255, 235)),ColorSequenceKeypoint.new(0.531, Color3.fromRGB(0, 255, 18)),ColorSequenceKeypoint.new(0.723, Color3.fromRGB(235, 255, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
+
+
+-- StarterGui.gamde.memenu.UIStroke.UIGradient.LocalScript
+G2L["5"] = Instance.new("LocalScript", G2L["4"]);
+
+
+
+-- StarterGui.gamde.memenu.TextLabel
+G2L["6"] = Instance.new("TextLabel", G2L["2"]);
+G2L["6"]["TextWrapped"] = true;
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["TextScaled"] = true;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["TextSize"] = 14;
+G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["BackgroundTransparency"] = 1;
+G2L["6"]["Size"] = UDim2.new(0.37895, 0, 0.08969, 0);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Text"] = [[FLEX YOUR AVARTA]];
+G2L["6"]["Position"] = UDim2.new(0.02456, 0, 0, 0);
+
+
+-- StarterGui.gamde.memenu.setting
+G2L["7"] = Instance.new("Frame", G2L["2"]);
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["Size"] = UDim2.new(0.36842, 0, 0.05605, 0);
+G2L["7"]["Position"] = UDim2.new(0.61754, 0, 0.0157, 0);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Name"] = [[setting]];
+G2L["7"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.gamde.memenu.setting.clo
+G2L["8"] = Instance.new("TextButton", G2L["7"]);
+G2L["8"]["TextWrapped"] = true;
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["TextSize"] = 14;
+G2L["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["TextScaled"] = true;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["8"]["Size"] = UDim2.new(0.2, 0, 1, 0);
+G2L["8"]["BackgroundTransparency"] = 1;
+G2L["8"]["Name"] = [[clo]];
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Text"] = [[X]];
+G2L["8"]["Position"] = UDim2.new(0.8, 0, 0, 0);
+
+
+-- StarterGui.gamde.memenu.setting.clo.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["8"]);
+
+
+
+-- StarterGui.gamde.memenu.setting.clo.LocalScript.Windows Notify System Generic
+G2L["a"] = Instance.new("Sound", G2L["9"]);
+G2L["a"]["Volume"] = 5;
+G2L["a"]["Name"] = [[Windows Notify System Generic]];
+G2L["a"]["SoundId"] = [[rbxassetid://489103549]];
+
+
+-- StarterGui.gamde.memenu.setting.clo.UIStroke
+G2L["b"] = Instance.new("UIStroke", G2L["8"]);
+G2L["b"]["Thickness"] = 2.3;
+G2L["b"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.gamde.memenu.setting.clo.UIStroke.UIGradient
+G2L["c"] = Instance.new("UIGradient", G2L["b"]);
+G2L["c"]["Rotation"] = -180;
+G2L["c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
+
+
+-- StarterGui.gamde.memenu.setting.clo.UIStroke.UIGradient.LocalScript
+G2L["d"] = Instance.new("LocalScript", G2L["c"]);
+
+
+
+-- StarterGui.gamde.memenu.setting.zoom
+G2L["e"] = Instance.new("TextButton", G2L["7"]);
+G2L["e"]["TextWrapped"] = true;
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["TextSize"] = 14;
+G2L["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["TextScaled"] = true;
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["e"]["Size"] = UDim2.new(0.12857, 0, 1.52, 0);
+G2L["e"]["BackgroundTransparency"] = 1;
+G2L["e"]["Name"] = [[zoom]];
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Text"] = [[▢]];
+G2L["e"]["Rotation"] = 90;
+G2L["e"]["Position"] = UDim2.new(0.60476, 0, -0.28, 0);
+
+
+-- StarterGui.gamde.memenu.setting.zoom.LocalScript
+G2L["f"] = Instance.new("LocalScript", G2L["e"]);
+
+
+
+-- StarterGui.gamde.memenu.setting.TextButton
+G2L["10"] = Instance.new("TextButton", G2L["7"]);
+G2L["10"]["TextWrapped"] = true;
+G2L["10"]["BorderSizePixel"] = 0;
+G2L["10"]["TextSize"] = 14;
+G2L["10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["TextScaled"] = true;
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["10"]["Size"] = UDim2.new(0.12857, 0, 1.24, 0);
+G2L["10"]["BackgroundTransparency"] = 1;
+G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["Text"] = [[I]];
+G2L["10"]["Rotation"] = 90;
+G2L["10"]["Position"] = UDim2.new(0.37663, 0, -0.14, 0);
+
+
+-- StarterGui.gamde.memenu.setting.TextButton.LocalScript
+G2L["11"] = Instance.new("LocalScript", G2L["10"]);
+
+
+
+-- StarterGui.gamde.memenu.fpsfakec
+G2L["12"] = Instance.new("TextBox", G2L["2"]);
+G2L["12"]["CursorPosition"] = -1;
+G2L["12"]["TextColor3"] = Color3.fromRGB(137, 137, 137);
+G2L["12"]["BorderSizePixel"] = 0;
+G2L["12"]["TextSize"] = 14;
+G2L["12"]["Name"] = [[fpsfakec]];
+G2L["12"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12"]["Size"] = UDim2.new(0.24561, 0, 0.0583, 0);
+G2L["12"]["Position"] = UDim2.new(0.02456, 0, 0.17713, 0);
+G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["Text"] = [[]];
+G2L["12"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.gamde.memenu.fpsfakec.TextLabel
+G2L["13"] = Instance.new("TextLabel", G2L["12"]);
+G2L["13"]["TextWrapped"] = true;
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["TextScaled"] = true;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["TextSize"] = 14;
+G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13"]["TextColor3"] = Color3.fromRGB(95, 255, 255);
+G2L["13"]["BackgroundTransparency"] = 1;
+G2L["13"]["Size"] = UDim2.new(1, 0, -0.76923, 0);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Text"] = [[SHOW FAKE FPS  IN| CHAT]];
+
+
+-- StarterGui.gamde.memenu.fpsfakec.TextButton
+G2L["14"] = Instance.new("TextButton", G2L["12"]);
+G2L["14"]["BorderSizePixel"] = 0;
+G2L["14"]["TextSize"] = 14;
+G2L["14"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["14"]["Size"] = UDim2.new(1, 0, 0.96154, 0);
+G2L["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["Text"] = [[CLICK TO SEND]];
+G2L["14"]["Position"] = UDim2.new(0, 0, 1.34615, 0);
+
+
+-- StarterGui.gamde.memenu.fpsfakec.TextButton.LocalScript
+G2L["15"] = Instance.new("LocalScript", G2L["14"]);
+
+
+
+-- StarterGui.gamde.memenu.pingfake
+G2L["16"] = Instance.new("TextBox", G2L["2"]);
+G2L["16"]["CursorPosition"] = -1;
+G2L["16"]["TextColor3"] = Color3.fromRGB(137, 137, 137);
+G2L["16"]["BorderSizePixel"] = 0;
+G2L["16"]["TextSize"] = 14;
+G2L["16"]["Name"] = [[pingfake]];
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16"]["Size"] = UDim2.new(0.24561, 0, 0.0583, 0);
+G2L["16"]["Position"] = UDim2.new(0.02456, 0, 0.3722, 0);
+G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["Text"] = [[]];
+G2L["16"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.gamde.memenu.pingfake.TextLabel
+G2L["17"] = Instance.new("TextLabel", G2L["16"]);
+G2L["17"]["TextWrapped"] = true;
+G2L["17"]["BorderSizePixel"] = 0;
+G2L["17"]["TextScaled"] = true;
+G2L["17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17"]["TextSize"] = 14;
+G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["17"]["TextColor3"] = Color3.fromRGB(95, 255, 255);
+G2L["17"]["BackgroundTransparency"] = 1;
+G2L["17"]["Size"] = UDim2.new(1, 0, -0.76923, 0);
+G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17"]["Text"] = [[SHOW FAKE PING  IN| CHAT]];
+
+
+-- StarterGui.gamde.memenu.pingfake.TextButton
+G2L["18"] = Instance.new("TextButton", G2L["16"]);
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["TextSize"] = 14;
+G2L["18"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["18"]["Size"] = UDim2.new(1, 0, 0.96154, 0);
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Text"] = [[CLICK TO SEND]];
+G2L["18"]["Position"] = UDim2.new(0, 0, 1.34615, 0);
+
+
+-- StarterGui.gamde.memenu.pingfake.TextButton.LocalScript
+G2L["19"] = Instance.new("LocalScript", G2L["18"]);
+
+
+
+-- StarterGui.gamde.memenu.pingfake
+G2L["1a"] = Instance.new("TextBox", G2L["2"]);
+G2L["1a"]["CursorPosition"] = -1;
+G2L["1a"]["TextColor3"] = Color3.fromRGB(137, 137, 137);
+G2L["1a"]["BorderSizePixel"] = 0;
+G2L["1a"]["TextSize"] = 14;
+G2L["1a"]["Name"] = [[pingfake]];
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a"]["Size"] = UDim2.new(0.24561, 0, 0.0583, 0);
+G2L["1a"]["Position"] = UDim2.new(0.02456, 0, 0.71076, 0);
+G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["Text"] = [[]];
+G2L["1a"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.gamde.memenu.pingfake.TextLabel
+G2L["1b"] = Instance.new("TextLabel", G2L["1a"]);
+G2L["1b"]["TextWrapped"] = true;
+G2L["1b"]["BorderSizePixel"] = 0;
+G2L["1b"]["TextScaled"] = true;
+G2L["1b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b"]["TextSize"] = 14;
+G2L["1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1b"]["TextColor3"] = Color3.fromRGB(95, 255, 255);
+G2L["1b"]["BackgroundTransparency"] = 1;
+G2L["1b"]["Size"] = UDim2.new(1, 0, -0.76923, 0);
+G2L["1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b"]["Text"] = [[CHAT BYPASSER ANTIBAN| CHAT]];
+
+
+-- StarterGui.gamde.memenu.pingfake.TextButton
+G2L["1c"] = Instance.new("TextButton", G2L["1a"]);
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["TextSize"] = 14;
+G2L["1c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c"]["Size"] = UDim2.new(1, 0, 0.96154, 0);
+G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["Text"] = [[CLICK TO SEND]];
+G2L["1c"]["Position"] = UDim2.new(0, 0, 1.34615, 0);
+
+
+-- StarterGui.gamde.noticlose
+G2L["1d"] = Instance.new("Frame", G2L["1"]);
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Size"] = UDim2.new(0.25368, 0, 0.15789, 0);
+G2L["1d"]["Position"] = UDim2.new(0.73939, 0, 0.83014, 0);
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Name"] = [[noticlose]];
+G2L["1d"]["BackgroundTransparency"] = 0.6;
+
+
+-- StarterGui.gamde.noticlose.UIStroke
+G2L["1e"] = Instance.new("UIStroke", G2L["1d"]);
+G2L["1e"]["Thickness"] = 2.3;
+G2L["1e"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.gamde.noticlose.UIStroke.UIGradient
+G2L["1f"] = Instance.new("UIGradient", G2L["1e"]);
+G2L["1f"]["Rotation"] = -180;
+G2L["1f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(73, 0, 255)),ColorSequenceKeypoint.new(0.218, Color3.fromRGB(9, 0, 255)),ColorSequenceKeypoint.new(0.388, Color3.fromRGB(0, 255, 235)),ColorSequenceKeypoint.new(0.531, Color3.fromRGB(0, 255, 18)),ColorSequenceKeypoint.new(0.723, Color3.fromRGB(235, 255, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
+
+
+-- StarterGui.gamde.noticlose.UIStroke.UIGradient.LocalScript
+G2L["20"] = Instance.new("LocalScript", G2L["1f"]);
+
+
+
+-- StarterGui.gamde.noticlose.TextLabel
+G2L["21"] = Instance.new("TextLabel", G2L["1d"]);
+G2L["21"]["TextWrapped"] = true;
+G2L["21"]["BorderSizePixel"] = 0;
+G2L["21"]["TextScaled"] = true;
+G2L["21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["21"]["TextSize"] = 14;
+G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["21"]["BackgroundTransparency"] = 1;
+G2L["21"]["Size"] = UDim2.new(0.91809, 0, 0.26203, 0);
+G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["Text"] = [[YOU WANT TO CLOSE THIS WINDOW?]];
+G2L["21"]["Position"] = UDim2.new(0.04096, 0, 0, 0);
+
+
+-- StarterGui.gamde.noticlose.TextLabel.Frame
+G2L["22"] = Instance.new("Frame", G2L["21"]);
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Size"] = UDim2.new(1, 0, 0.97279, 0);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["BackgroundTransparency"] = 0.85;
+
+
+-- StarterGui.gamde.noticlose.yesc
+G2L["23"] = Instance.new("TextButton", G2L["1d"]);
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["TextSize"] = 14;
+G2L["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["23"]["Size"] = UDim2.new(0.43686, 0, 0.2549, 0);
+G2L["23"]["BackgroundTransparency"] = 0.7;
+G2L["23"]["Name"] = [[yesc]];
+G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Text"] = [[YES]];
+G2L["23"]["Position"] = UDim2.new(0.0273, 0, 0.66667, 0);
+
+
+-- StarterGui.gamde.noticlose.yesc.LocalScript
+G2L["24"] = Instance.new("LocalScript", G2L["23"]);
+
+
+
+-- StarterGui.gamde.noticlose.yesc.LocalScript.Windows 8 Notify Email
+G2L["25"] = Instance.new("Sound", G2L["24"]);
+G2L["25"]["Volume"] = 5;
+G2L["25"]["Name"] = [[Windows 8 Notify Email]];
+G2L["25"]["SoundId"] = [[rbxassetid://1862045322]];
+
+
+-- StarterGui.gamde.noticlose.nobtn
+G2L["26"] = Instance.new("TextButton", G2L["1d"]);
+G2L["26"]["BorderSizePixel"] = 0;
+G2L["26"]["TextSize"] = 14;
+G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["26"]["Size"] = UDim2.new(0.43686, 0, 0.2549, 0);
+G2L["26"]["BackgroundTransparency"] = 0.7;
+G2L["26"]["Name"] = [[nobtn]];
+G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["26"]["Text"] = [[NO]];
+G2L["26"]["Position"] = UDim2.new(0.54266, 0, 0.66667, 0);
+
+
+-- StarterGui.gamde.noticlose.TextLabel
+G2L["27"] = Instance.new("TextLabel", G2L["1d"]);
+G2L["27"]["TextWrapped"] = true;
+G2L["27"]["BorderSizePixel"] = 0;
+G2L["27"]["TextScaled"] = true;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["TextSize"] = 14;
+G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["BackgroundTransparency"] = 1;
+G2L["27"]["Size"] = UDim2.new(0.91809, 0, 0.16399, 0);
+G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Text"] = [[if you press yes "flex your avarta" script gui will destroy or remove are you sure to close it?]];
+G2L["27"]["Position"] = UDim2.new(0.04096, 0, 0.2549, 0);
+
+
+-- StarterGui.gamde.LocalScript
+G2L["28"] = Instance.new("LocalScript", G2L["1"]);
+
+
+
+-- StarterGui.gamde.memenu.UIStroke.UIGradient.LocalScript
+local function C_5()
+local script = G2L["5"];
+	while true do wait()
+		script.Parent.Rotation += 5
+	end
+end;
+task.spawn(C_5);
+-- StarterGui.gamde.memenu.setting.clo.LocalScript
+local function C_9()
+local script = G2L["9"];
+	local cik = script.Parent
+	local noti = script.Parent.Parent.Parent.Parent.noticlose
+	local tri = true
+	
+	local us = script.Parent.UIStroke
+	
+	local tex = script.Parent
+	us.Transparency = 1
+	cik.MouseButton1Click:Connect(function()
+		if tri == true then
+			
+			noti:TweenPosition(UDim2.new(0.739, 0, 0.83, 0), "Out", "Sine", 0.5)
+			Waait()
+			
+	
+		end
+		
+	end)
+	
+	function Waait()
+		us.Transparency = 0
+		script["Windows Notify System Generic"]:Play()
+		tri = false	
+	    cik.Text = "5"
+	    wait(1)
+	    cik.Text = "4"
+	    wait(1)
+	    cik.Text = "3"
+	    wait(1)
+	    cik.Text = "2"
+	    wait(1)
+		cik.Text = "1"    
+		wait(1)
+		cik.Text = "X"
+		us.Transparency = 1	
+		
+	
+	
+		
+		wait(0.1)
+		noti:TweenPosition(UDim2.new(2, 0 ,0.83, 0), "In", "Back", 0.5)
+		wait(0.6)	
+		tri = true	
+	
+	
+		
+	end
+	
+	
+end;
+task.spawn(C_9);
+-- StarterGui.gamde.memenu.setting.clo.UIStroke.UIGradient.LocalScript
+local function C_d()
+local script = G2L["d"];
+	while true do wait()
+		script.Parent.Rotation += 6
+	end
+end;
+task.spawn(C_d);
+-- StarterGui.gamde.memenu.setting.zoom.LocalScript
+local function C_f()
+local script = G2L["f"];
+	local bigs = script.Parent.Parent.Parent.Parent.memenu
+	local cilk = script.Parent
+	local trig = true
+	
+	local main = script.Parent.Parent.Parent.setting
+	
+	cilk.MouseButton1Click:Connect(function()
+		if trig == true then
+	
+			cilk.Text = "▫"----zoom
+			bigs:TweenSize(UDim2.new(1, 0, 1, 0), "Out", "Sine", 0.5)
+		    bigs:TweenPosition(UDim2.new(0, 0, 0, 0), "Out", "Sine", 0.5)
+		else
+	
+			cilk.Text = "▢"
+			bigs:TweenSize(UDim2.new(0.494, 0, 0.69, 0), "Out", "Sine", 0.5)
+			bigs:TweenPosition(UDim2.new(0.253, 0, 0.155, 0), "Out", "Sine", 0.5)
+		end
+		trig = not trig
+	end)
+			
+	
+end;
+task.spawn(C_f);
+-- StarterGui.gamde.memenu.setting.TextButton.LocalScript
+local function C_11()
+local script = G2L["11"];
+	local bigs = script.Parent.Parent.Parent.Parent.memenu
+	local cilk = script.Parent
+	local trig = true
+	
+	local main = script.Parent.Parent.Parent.setting
+	
+	cilk.MouseButton1Click:Connect(function()
+		if trig == true then
+	
+			cilk.Text = "+"----minisize
+			bigs:TweenSize(UDim2.new(0.494, 0, 0.69, 0), "Out", "Sine", 0.5)
+			bigs:TweenPosition(UDim2.new(-0.348, 0, 0.938, 0), "Out", "Sine", 0.5)
+		else
+	
+			cilk.Text = "I"
+			bigs:TweenSize(UDim2.new(0.494, 0, 0.69, 0), "Out", "Sine", 0.5)
+			bigs:TweenPosition(UDim2.new(0.253, 0, 0.155, 0), "Out", "Sine", 0.5)
+		end
+		trig = not trig
+	end)
+			
+	
+end;
+task.spawn(C_11);
+-- StarterGui.gamde.memenu.fpsfakec.TextButton.LocalScript
+local function C_15()
+local script = G2L["15"];
+	local cik = script.Parent
+	
+	cik.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "/show fps",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+	end)
+	
+end;
+task.spawn(C_15);
+-- StarterGui.gamde.memenu.pingfake.TextButton.LocalScript
+local function C_19()
+local script = G2L["19"];
+	local cik = script.Parent
+	
+	cik.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "/show ping",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+	end)
+	
+end;
+task.spawn(C_19);
+-- StarterGui.gamde.noticlose.UIStroke.UIGradient.LocalScript
+local function C_20()
+local script = G2L["20"];
+	while true do wait()
+		script.Parent.Rotation += 5
+	end
+end;
+task.spawn(C_20);
+-- StarterGui.gamde.noticlose.yesc.LocalScript
+local function C_24()
+local script = G2L["24"];
+	local sxc = script.Parent.Parent.Parent.Parent.gamde
+	local scsc = script.Parent
+	local faadeout = script.Parent.Parent.Parent.memenu
+	
+	local v = script["Windows 8 Notify Email"]
+	
+	local colbox = true
+	
+	scsc.MouseButton1Click:Connect(function()
+		
+		bock()
+	
+		wait(1.5)
+	
+		sxc:Remove()
+	end)
+	
+	function bock()
+		if colbox == true then
+			colbox = false
+			v:Play()
+		end
+		
+		
+	end
+end;
+task.spawn(C_24);
+-- StarterGui.gamde.LocalScript
+local function C_28()
+local script = G2L["28"];
+	script.Parent.noticlose.Position = UDim2.new(2, 0, 0.83, 0)
+end;
+task.spawn(C_28);
+
+return G2L["1"], require;
