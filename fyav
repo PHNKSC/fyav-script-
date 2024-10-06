@@ -156,7 +156,6 @@ G2L["11"] = Instance.new("LocalScript", G2L["10"]);
 
 -- StarterGui.gamde.memenu.fpsfakec
 G2L["12"] = Instance.new("TextBox", G2L["2"]);
-G2L["12"]["CursorPosition"] = -1;
 G2L["12"]["TextColor3"] = Color3.fromRGB(137, 137, 137);
 G2L["12"]["BorderSizePixel"] = 0;
 G2L["12"]["TextSize"] = 14;
@@ -207,7 +206,6 @@ G2L["15"] = Instance.new("LocalScript", G2L["14"]);
 
 -- StarterGui.gamde.memenu.pingfake
 G2L["16"] = Instance.new("TextBox", G2L["2"]);
-G2L["16"]["CursorPosition"] = -1;
 G2L["16"]["TextColor3"] = Color3.fromRGB(137, 137, 137);
 G2L["16"]["BorderSizePixel"] = 0;
 G2L["16"]["TextSize"] = 14;
@@ -258,7 +256,6 @@ G2L["19"] = Instance.new("LocalScript", G2L["18"]);
 
 -- StarterGui.gamde.memenu.pingfake
 G2L["1a"] = Instance.new("TextBox", G2L["2"]);
-G2L["1a"]["CursorPosition"] = -1;
 G2L["1a"]["TextColor3"] = Color3.fromRGB(137, 137, 137);
 G2L["1a"]["BorderSizePixel"] = 0;
 G2L["1a"]["TextSize"] = 14;
@@ -329,7 +326,7 @@ G2L["1f"] = Instance.new("Frame", G2L["1"]);
 G2L["1f"]["BorderSizePixel"] = 0;
 G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1f"]["Size"] = UDim2.new(0.25368, 0, 0.21981, 0);
-G2L["1f"]["Position"] = UDim2.new(0.73939, 0, 0.76822, 0);
+G2L["1f"]["Position"] = UDim2.new(0.73939, 0, 0.15986, 0);
 G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1f"]["Name"] = [[noticlose]];
 G2L["1f"]["BackgroundTransparency"] = 0.6;
