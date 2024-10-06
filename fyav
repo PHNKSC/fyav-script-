@@ -576,15 +576,16 @@ task.spawn(C_11);
 -- StarterGui.gamde.memenu.fpsfakec.TextButton.LocalScript
 local function C_15()
 local script = G2L["15"];
-	local cik = script.Parent
+	local valuetex = script.Parent.Parent.Parent.pingfake.Text
+	local send = script.Parent
 	
-	cik.MouseButton1Click:Connect(function()
+	send.MouseButton1Click:Connect(function()
 		local args = {
-			[1] = "/show fps",
-			[2] = "All"
+			[1] = "pnig",
+			[2] = tostring(math.clamp(valuetex))
 		}
 	
-		game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+		game:GetService("ReplicatedStorage"):WaitForChild("efectos"):FireServer(unpack(args))
 	end)
 	
 end;
@@ -592,13 +593,13 @@ task.spawn(C_15);
 -- StarterGui.gamde.memenu.pingfake.TextButton.LocalScript
 local function C_19()
 local script = G2L["19"];
-	local valuetex = script.Parent.Parent.Parent.fpsfakec
+	local valuetex = script.Parent.Parent.Parent.fpsfakec.Text
 	local send = script.Parent
 	
 	send.MouseButton1Click:Connect(function()
 		local args = {
-			[1] = "fps",
-			[2] = tostring(valuetex)
+			[1] = "ping",
+			[2] = tostring(math.clamp(valuetex))
 		}
 	
 		game:GetService("ReplicatedStorage"):WaitForChild("efectos"):FireServer(unpack(args))
@@ -609,13 +610,13 @@ task.spawn(C_19);
 -- StarterGui.gamde.memenu.bypass.send.LocalScript
 local function C_1d()
 local script = G2L["1d"];
-	local valuetex = script.Parent.Parent.Parent.pingfake
+	local valuetex = script.Parent.Parent.Parent.pingfake.Text
 	local send = script.Parent
 	
 	send.MouseButton1Click:Connect(function()
 		local args = {
 			[1] = "pnig",
-			[2] = valuetex
+			[2] = [["]],valuetex,[[",]]
 		}
 	
 		game:GetService("ReplicatedStorage"):WaitForChild("efectos"):FireServer(unpack(args))
