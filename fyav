@@ -48,7 +48,7 @@ G2L["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["6"]["BackgroundTransparency"] = 1;
 G2L["6"]["Size"] = UDim2.new(0.65748, 0, 0.0426, 0);
 G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6"]["Text"] = [[FLEX YOUR AVATAR VALUE | MADE BY ILDK YOUTUBE @illdddkkk| v1.2]];
+G2L["6"]["Text"] = [[FLEX YOUR AVATAR VALUE | MADE BY ILDK YOUTUBE @illdddkkk| v1.3]];
 G2L["6"]["Position"] = UDim2.new(0.01238, 0, 0.01345, 0);
 
 
@@ -662,7 +662,7 @@ local script = G2L["27"];
 	
 		wait(1.5)
 	    
-		sxc:Remove()
+		sxc:Destroy()
 	end)
 	
 	
